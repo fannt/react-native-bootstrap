@@ -24,7 +24,6 @@ export default StyleSheet.create({
     backgroundColor: '#333',
   },
   list: {
-    // backgroundColor: 'red',
   },
   text: {
     textAlign: 'center',

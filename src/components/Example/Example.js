@@ -13,9 +13,7 @@ import styles from './styles'
 export default class Example extends Component {
 
   render() {
-    // const {data} = this.props
-    const {data} = {data: []}
-    console.warn(this.props)
+    const {data} = this.props
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
@@ -34,10 +32,10 @@ export default class Example extends Component {
   renderItem = ({item}) => {
     const {
       key,
-      title,
+      text,
     } = item
     return (
-      <Cell title={title}/>
+      <Cell title={text}/>
     )
   }
 }

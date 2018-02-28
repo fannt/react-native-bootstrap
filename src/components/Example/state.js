@@ -10,8 +10,8 @@ export const actions = mapValues(types, type => createAction(type))
 const initialState = {
   data: [
     {
-      title: 'Main title 1',
-      data: [{text: '1', key: 1}, {text: '2', key: 2}]
+      title: 'Section title',
+      data: [{text: 'cell 1', key: 1}, {text: 'cell 2', key: 2}]
     },
   ]
 }
